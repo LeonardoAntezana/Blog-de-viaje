@@ -128,7 +128,7 @@ nav ul li{
 .conteiner__image__header{
     width: 100%;
     height: 80vh;
-    background-image: url(../rutas/Images/Laguna-esmeralda.jpg);
+    background-image: url(/rutas/Images/Laguna-esmeralda.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
