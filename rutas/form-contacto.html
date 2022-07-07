@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="grid-templeate-contacto" id="grids">
+        <header id="header__contacto">
+            <div id="redes-top">
+                <a href="#"><img class="icono" src="../rutas/Images/instagram.png" alt="icono ig"></a>
+                <a href="#"><img src="../rutas/Images/twitter.png" alt="icono twitter" class="icono"></a>
+                <a href="#"><img src="../rutas/Images/youtube.png" alt="icono youtube" class="icono"></a>
+            </div>
+            <div class="conteiner__titulo__menu">
+                <h1 class="titulo__header">Un pequeño viaje</h1>
+                <img class="menu" src="Images/menu.png" alt="imagen-menu">
+            <nav>
+                <ul>
+                    <li><a class="link" href="../index.html">Home</a></li>
+                    <li><a class="link" href="destinos.html">Destinos</a></li>
+                    <li><a class="link" href="tips.html">Tips</a></li>
+                    <li><a class="link" href="aventuras.html">Aventuras</a></li>
+                    <li><a class="link" href="form-contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main__contacto">
+            <h2 id="titulo__seccion-contacto">Contacto</h2>
+            <form id="formulario" action="">
+            <div id="conteiner__image__mail"><img src="../rutas/Images/mail.png" alt="icon-mail"></div>
+            <label class="formulario__requisito" for="nombre"> Nombre:
+                <input class="formulario__requisito__input" type="text">
+            </label>
+            <label class="formulario__requisito" for="mail"> E-Mail(Obligatorio):
+                <input class="formulario__requisito__input" type="email">
+            </label>
+            <label class="formulario__requisito" for="asunto"> Asunto:
+                <input class="formulario__requisito__input" type="text">
+            </label>
+            <label class="formulario__requisito" for="mensaje"> Mensaje:
+                <textarea name="mensaje" class="formulario__requisito__input" id="textarea" cols="30" rows="10"></textarea>
+            </label>
+            <label for="btn-enviar" class="btn-enviar">
+                <input class="input__enviar" type="submit">
+            </label>
+            </form>
+        </main>
+        <footer id="footer__contacto">
+            <div class="redes__footer">
+                <a href="#"><img class="icono" src="Images/instagram.png" alt="icono ig"></a>
+                <a href="#"><img src="Images/twitter.png" alt="icono twitter" class="icono"></a>
+                <a href="#"><img src="Images/youtube.png" alt="icono youtube" class="icono"></a>
+            </div>
+            <p class="p__footer">Terminos y condiciones | Politica de privacidad</p>
+        </footer>
+    </div>
+</body>
+</html>
