@@ -265,6 +265,12 @@ nav ul li{
     transition: all 1s;
 }
 
+
+.p__contenido__article__destinos{
+    padding: 0 0.4rem;
+    text-align: justify;
+}
+
 #conteiner-destinos__bariloche{
     grid-row: 1/5;
     /* grid-area: bariloche; */
