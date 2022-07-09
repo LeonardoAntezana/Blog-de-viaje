@@ -103,6 +103,8 @@ nav ul li{
 }
 
 #main__destinos{
+    padding: 2.5rem 0;
+    background-color: #2C2727;
     grid-area: main-destinos;
 }
 
@@ -249,8 +251,7 @@ nav ul li{
 
 
 #conteiner-destinos{
-    margin: 45px auto;
-    margin-bottom: 0;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -764,7 +765,7 @@ footer{
     #conteiner-destinos{
         max-width: 1000px;
         margin: 0 auto;
-        margin-top: 3rem;
+        /* margin-top: 3rem; */
         display: grid;
         grid-template-rows: repeat(8, 5.5rem);
         grid-template-columns: repeat(3, 18.7rem);
