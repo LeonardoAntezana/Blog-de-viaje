@@ -199,6 +199,39 @@ nav ul li{
 #conteiner__image__mail{
     display: flex;
     justify-content: center;
+    animation-name: mail-movement;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes mail-movement{
+    15%{
+        transform: translateY(1rem);
+    }
+
+    30%{
+        transform: translateY(-1rem);
+    }
+
+    45%{
+        transform: translateY(0.7rem);
+    }
+
+    60%{
+        transform: translateY(-0.7rem);
+    }
+
+    75%{
+        transform: translateY(0.3rem);
+    }
+
+    90%{
+        transform: translateY(-0.3rem);
+    }
+
+    100%{
+        transform: translateY(0.1rem);
+    }
 }
 
 
