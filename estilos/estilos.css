@@ -104,6 +104,11 @@ nav ul li{
     color: black;
 }
 
+.link:hover{
+    text-decoration: none;
+    
+}
+
 
 /* MAIN */
 
