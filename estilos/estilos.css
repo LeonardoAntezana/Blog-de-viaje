@@ -49,7 +49,7 @@
 
 .icono{
     padding: 0px 6px;
-    width: 16px;
+    /* width: 16px; */
     height: 16px;
 }
 
@@ -63,6 +63,17 @@
     border-bottom: dotted 3px black;
 }
 
+
+#nav-menu{
+    background-color: #A4CACF;
+}
+
+
+
+.titulo__header-index{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.7rem;
+}
 
 .menu{
     padding: 0;
@@ -476,7 +487,7 @@ footer{
             " footer-index footer-index"
             ;
 
-        grid-template-rows: auto 4fr 0.5fr;
+        grid-template-rows: 0.3fr 4fr 0.5fr;
         grid-template-columns: 100%;
         row-gap: 1.3rem;
     }
@@ -668,7 +679,7 @@ footer{
             " footer-index footer-index"
             ;
 
-        grid-template-rows: 0.4fr 4fr auto;
+        grid-template-rows: 0.4fr 3fr auto;
         grid-template-columns: 100%;
         row-gap: 1.3rem;
     }
