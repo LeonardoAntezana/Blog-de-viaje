@@ -320,6 +320,7 @@ nav ul li{
 
 .p__contenido__article__destinos{
     padding: 0 0.4rem;
+    font-weight: bold;
     text-align: justify;
 }
 
@@ -814,6 +815,7 @@ footer{
         grid-template-rows: repeat(8, 5.5rem);
         grid-template-columns: repeat(3, 18.7rem);
         column-gap: 2rem;
+        row-gap: 1rem;
         /* display: grid;
         grid-template-areas: 
             " bariloche . el-calafate"
