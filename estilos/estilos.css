@@ -403,7 +403,7 @@ nav ul li{
 
 
 #conteiner-aventuras .article__titulo{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     padding: 0;
     transition: color 1s;
 }
@@ -611,7 +611,9 @@ footer{
     #article-aventuras-feria{
         background-color: white;
         color: black;
+        
     }
+
 
     #article-aventuras-feria p{
         font-weight: bold;
@@ -619,7 +621,7 @@ footer{
 
 
     #conteiner-aventuras .article__titulo{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
 
