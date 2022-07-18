@@ -60,20 +60,21 @@
     background-color: #A4CACF;
     text-align: center;
     padding: 20px 0px;
-    border-bottom: dotted 3px black;
+    
 }
 
 
 #nav-menu{
     background-color: #A4CACF;
+    border-bottom: black dotted;
 }
 
 
 
-.titulo__header-index{
+/* .titulo__header-index{
     font-family: 'Amatic SC', cursive;
     font-size: 1.7rem;
-}
+} */
 
 .menu{
     padding: 0;
@@ -511,17 +512,11 @@ footer{
         justify-content: space-around;
         align-items: center;
     }
-
-
-    .menu{
-        display: inline;
-        
-    }
     
 
     .titulo__header{
         display: inline;
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         border-style: none;
     }
 
