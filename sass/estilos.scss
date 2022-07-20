@@ -1,0 +1,28 @@
+@import "base/header.scss", "base/footer.scss","base/main-index.scss",
+"base/grid-areas.scss", "base/mediaQueries.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+#grids{
+    display: grid;
+}
+
+
+.icono{
+    padding: 0px 6px;
+    height: 16px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
