@@ -63,7 +63,9 @@ main .conteiner__image__header {
     grid-template-areas: " header-index header-index" " main-index main-index" " footer-index footer-index";
     grid-template-rows: 0.3fr 4fr 0.5fr;
     grid-template-columns: 100%;
-    row-gap: 1.3rem; } }
+    row-gap: 1.3rem; }
+    .grid-template-index .p__footer {
+      font-size: 0.7rem; } }
 
 @media screen and (min-width: 781px) {
   .grid-template-index {
