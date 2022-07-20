@@ -1,0 +1,13 @@
+// INDEX
+.grid-template-index{
+    #header__index{
+        grid-area: header-index;
+    }
+    #main__index{
+        grid-area: main-index;
+    }
+    #footer__index{
+        grid-area: footer-index;
+    }
+}   
+
