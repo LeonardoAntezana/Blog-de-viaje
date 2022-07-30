@@ -13,3 +13,9 @@
     text-decoration: underline;
     text-align: center;
 }
+
+@mixin imageSize ($height, $width){ 
+    height: $height; 
+    width: $width;
+    border-radius: 2px;
+}

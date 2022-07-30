@@ -46,6 +46,20 @@
         grid-template-columns: 1fr;
         row-gap: 2rem;
     }
+
+
+    // AVENTURAS
+
+    .grid-templeate-aventuras{
+        grid-template-areas: 
+            " header-aventuras"
+            " main-aventuras"
+            " footer-aventuras"
+        ;
+        grid-template-rows: 0.2fr 1.5fr 0.1fr;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
 }
     
 
@@ -102,6 +116,25 @@
         flex-direction: column;
     }
 
+    // AVENTURAS
+
+    .grid-templeate-aventuras{
+        grid-template-areas: 
+            " header-aventuras"
+            " main-aventuras"
+            " footer-aventuras"
+            ;
+            grid-template-rows: 0.5fr 4fr 1rem;
+            grid-template-columns: 1fr;
+            row-gap: 2rem;
+        }
+
+    #conteiner-aventuras{
+        article{
+            width: 500px;
+        }
+
+    }
     footer{
         .redes__footer{
             display: none;
@@ -124,19 +157,42 @@
         }
 
 
-        .grid-templeate-contacto{
-            grid-template-areas: 
-                " header-contacto"
-                " main-contacto"
-                " footer-contacto"
-                ;
-            grid-template-rows: 0.2fr 3fr 0.2fr ;
-            grid-template-columns: 1fr;
-            row-gap: 2rem;
+    .grid-templeate-contacto{
+        grid-template-areas: 
+            " header-contacto"
+            " main-contacto"
+            " footer-contacto"
+            ;
+        grid-template-rows: 0.2fr 3fr 0.2fr ;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
         }
 
-        #formulario{
-            display: block;
-            height: auto;
+    #formulario{
+        display: block;
+        height: auto;
+    }
+
+    #main__aventuras{
+        #conteiner-aventuras{
+            #article-aventuras-patagonia{
+                width: 800px;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                .contenido__article__aventuras{
+                    width: 400px;
+                }
+            }
+            #article-aventuras-feria{
+                width: 800px ;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                .contenido__article__aventuras{
+                    width: 400px;
+                }
+            }
+            }
         }
 }
