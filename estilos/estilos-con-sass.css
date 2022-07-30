@@ -88,6 +88,17 @@ main .conteiner__image__header {
     grid-template-columns: 100%;
     row-gap: 1.2rem; } }
 
+#hero__tips .conteiner__image__header-height {
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../rutas/Images/Laguna-esmeralda.jpg); }
+
 * {
   margin: 0;
   padding: 0;

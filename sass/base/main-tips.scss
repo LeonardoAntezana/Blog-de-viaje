@@ -1,0 +1,6 @@
+#hero__tips{
+    .conteiner__image__header-height{
+        @include hero(400px);
+        background-image: url(../rutas/Images/Laguna-esmeralda.jpg);
+    }
+}

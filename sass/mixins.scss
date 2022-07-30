@@ -1,0 +1,9 @@
+@mixin hero($h-vh) {
+    width: 100%;
+    height: $h-vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
