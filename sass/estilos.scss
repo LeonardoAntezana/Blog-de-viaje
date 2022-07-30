@@ -1,4 +1,8 @@
-@import "./mixins.scss","base/header.scss", "base/footer.scss",
+@import "./mixins.scss";
+@import "./variables.scss",
+
+
+"base/header.scss", "base/footer.scss",
 "base/main-index.scss","base/grid-areas.scss", 
 "base/mediaQueries.scss", "base/main-tips.scss", 
 "base/main-contacto.scss" ;

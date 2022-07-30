@@ -7,3 +7,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center; }
+
+@mixin subTitles {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}

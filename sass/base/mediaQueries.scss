@@ -19,6 +19,20 @@
     .nav-link{
         font-size: 0.6rem;
     }
+
+    // TIPS
+
+    .grid-templeate-tips{
+        grid-template-areas: 
+            " header-tips"
+            " hero"
+            " main-tips"
+            " footer-tips"
+        ;
+        grid-template-rows: 0.2fr 0.4fr 0.4fr 0.1fr  ;
+        grid-template-columns: 100%;
+        row-gap: 2rem;
+    }
 }
     
 
@@ -40,6 +54,18 @@
         align-items: center;}
 
     nav{display: block;}
+
+    .grid-templeate-tips{
+        grid-template-areas: 
+            " header-tips"
+            " hero"
+            " main-tips"
+            " footer-tips"
+        ;
+        grid-template-rows: 0.3fr 1fr 0.3fr 0.2fr  ;
+        grid-template-columns: 100%;
+        row-gap: 1.5rem;
+    }
 }
 
 

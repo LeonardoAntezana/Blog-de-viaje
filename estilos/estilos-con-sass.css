@@ -17,11 +17,13 @@ nav {
   margin: 20px 10px;
   text-align: center;
   display: none; }
-  nav ul li {
-    list-style: none;
-    display: inline;
-    font-weight: bold;
-    margin: 0px 12px; }
+  nav ul {
+    margin: 0; }
+    nav ul li {
+      list-style: none;
+      display: inline;
+      font-weight: bold;
+      margin: 0px 12px; }
 
 footer {
   text-align: center;
@@ -67,7 +69,12 @@ main .conteiner__image__header {
   .p__footer {
     font-size: 0.7rem; }
   .nav-link {
-    font-size: 0.6rem; } }
+    font-size: 0.6rem; }
+  .grid-templeate-tips {
+    grid-template-areas: " header-tips" " hero" " main-tips" " footer-tips";
+    grid-template-rows: 0.2fr 0.4fr 0.4fr 0.1fr;
+    grid-template-columns: 100%;
+    row-gap: 2rem; } }
 
 @media screen and (min-width: 781px) {
   .grid-template-index {
@@ -79,7 +86,12 @@ main .conteiner__image__header {
     display: flex;
     align-items: center; }
   nav {
-    display: block; } }
+    display: block; }
+  .grid-templeate-tips {
+    grid-template-areas: " header-tips" " hero" " main-tips" " footer-tips";
+    grid-template-rows: 0.3fr 1fr 0.3fr 0.2fr;
+    grid-template-columns: 100%;
+    row-gap: 1.5rem; } }
 
 @media screen and (min-width: 1020px) {
   .grid-template-index {
@@ -90,7 +102,7 @@ main .conteiner__image__header {
 
 #hero__tips .conteiner__image__header-height {
   width: 100%;
-  height: 400px;
+  height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -98,6 +110,18 @@ main .conteiner__image__header {
   justify-content: space-around;
   align-items: center;
   background-image: url(../rutas/Images/Laguna-esmeralda.jpg); }
+
+#main__tips .conteiner__tips {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #main__tips .conteiner__tips #titulo__seccion-tips {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center; }
+  #main__tips .conteiner__tips .lista-tips {
+    font-size: 0.9rem; }
 
 * {
   margin: 0;
