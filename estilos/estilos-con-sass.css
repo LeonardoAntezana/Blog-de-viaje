@@ -147,7 +147,7 @@ main .conteiner__image__header {
     text-decoration: underline;
     text-align: center; }
   #main__tips .conteiner__tips .lista-tips {
-    font-size: 0.9rem; }
+    font-size: 0.8rem; }
 
 #main__contacto #titulo__seccion-contacto {
   font-size: 1.4rem;
@@ -169,7 +169,7 @@ main .conteiner__image__header {
       width: 3rem; }
 
 #main__contacto .formulario__requisito {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   width: 80%;
   margin: auto;
   padding: 12px 0px;
@@ -193,6 +193,7 @@ main .conteiner__image__header {
     color: white;
     font-weight: bold;
     padding: 6px;
+    font-size: 0.8rem;
     border: none;
     transition: all 1s ease; }
     #main__contacto .btn-enviar .input__enviar:hover {
