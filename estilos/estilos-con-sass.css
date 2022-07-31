@@ -178,7 +178,8 @@ main .conteiner__image__header {
     flex-direction: column;
     justify-content: space-around; }
     #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras h4 {
-      font-size: 1.4rem; }
+      font-size: 1.4rem;
+      color: #A4CACF; }
     #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras p {
       font-size: 0.8rem; }
     #main__aventuras #conteiner-aventuras #article-aventuras-feria img {
@@ -191,34 +192,38 @@ main .conteiner__image__header {
   text-decoration: underline;
   text-align: center; }
 
-#main__destinos #conteiner-destinos {
-  width: 18.7rem;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column; }
-  #main__destinos #conteiner-destinos .conteiner-destinos__articulo {
-    margin-bottom: 30px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    transition: transform 1s; }
-    #main__destinos #conteiner-destinos .conteiner-destinos__articulo img {
-      height: 200px;
-      width: 300px;
-      border-radius: 2px;
-      border-top-left-radius: 4px;
-      border-top-right-radius: 4px; }
-    #main__destinos #conteiner-destinos .conteiner-destinos__articulo .contenido__article__destinos {
-      padding: 1rem 0.5rem; }
-      #main__destinos #conteiner-destinos .conteiner-destinos__articulo .contenido__article__destinos h3 {
-        font-weight: bold; }
-      #main__destinos #conteiner-destinos .conteiner-destinos__articulo .contenido__article__destinos p {
-        font-weight: bold;
-        text-align: justify;
-        margin-bottom: 0;
-        font-size: 0.8rem; }
-    #main__destinos #conteiner-destinos .conteiner-destinos__articulo:hover {
-      cursor: pointer;
-      transform: scale(1.05); }
+#main__destinos {
+  padding-top: 30px;
+  background-color: #2C2727; }
+  #main__destinos #conteiner-destinos {
+    width: 18.7rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+    #main__destinos #conteiner-destinos .conteiner-destinos__articulo {
+      background-color: antiquewhite;
+      margin-bottom: 30px;
+      border-radius: 4px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+      transition: transform 1s; }
+      #main__destinos #conteiner-destinos .conteiner-destinos__articulo img {
+        height: 200px;
+        width: 300px;
+        border-radius: 2px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px; }
+      #main__destinos #conteiner-destinos .conteiner-destinos__articulo .contenido__article__destinos {
+        padding: 1rem 0.5rem; }
+        #main__destinos #conteiner-destinos .conteiner-destinos__articulo .contenido__article__destinos h3 {
+          font-weight: bold; }
+        #main__destinos #conteiner-destinos .conteiner-destinos__articulo .contenido__article__destinos p {
+          font-weight: bold;
+          text-align: justify;
+          margin-bottom: 0;
+          font-size: 0.8rem; }
+      #main__destinos #conteiner-destinos .conteiner-destinos__articulo:hover {
+        cursor: pointer;
+        transform: scale(1.05); }
 
 /* MEDIAS QUERIES */
 @media screen and (max-width: 780px) {
@@ -291,6 +296,24 @@ main .conteiner__image__header {
     row-gap: 2rem; }
   #conteiner-aventuras article {
     width: 500px; }
+  .grid-template-destinos {
+    grid-template-areas: " header-destinos header-destinos" " main-destinos main-destinos" " footer-destinos footer-destinos";
+    grid-template-rows: 0.7fr 3fr auto;
+    grid-template-columns: 100%;
+    row-gap: 1.2rem; }
+  #main__destinos #conteiner-destinos {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    #main__destinos #conteiner-destinos .conteiner-destinos__articulo {
+      width: 300px;
+      margin-bottom: 30px;
+      border-radius: 4px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+      transition: transform 1s; }
   footer .redes__footer {
     display: none; } }
 
@@ -321,7 +344,9 @@ main .conteiner__image__header {
     align-items: center;
     justify-content: space-between; }
     #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras {
-      width: 400px; } }
+      width: 400px; }
+  #main__destinos #conteiner-destinos {
+    width: 1000px; } }
 
 * {
   margin: 0;

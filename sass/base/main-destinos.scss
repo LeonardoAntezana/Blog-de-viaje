@@ -2,12 +2,15 @@
     h2{@include subTitles}
 }
 #main__destinos{
+    padding-top: 30px;
+    background-color: $bgDark;
     #conteiner-destinos{
         width: 18.7rem;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         .conteiner-destinos__articulo{
+            background-color:antiquewhite;
             margin-bottom: 30px;
             border-radius: 4px; 
             box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);

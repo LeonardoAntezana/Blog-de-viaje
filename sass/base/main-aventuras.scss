@@ -40,6 +40,7 @@
                 @extend .contenido__article__aventuras;
                 h4{
                     font-size: $secondTitle;
+                    color: $primaryBg;
                 }
                 p{
                     font-size: $letter-s;
