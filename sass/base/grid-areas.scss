@@ -25,3 +25,15 @@
 //         grid-area: footer-tips;
 //     }
 // }
+
+.grid-template-destinos{
+    #header__destinos{
+        grid-area: header-destinos;
+    }
+    #main__destinos{
+        grid-area: main-destinos;
+    }
+    #footer__destinos{
+        grid-area: footer-destinos;
+    }
+}

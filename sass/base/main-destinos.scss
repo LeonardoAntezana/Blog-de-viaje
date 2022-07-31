@@ -1,0 +1,37 @@
+#header__destinos{
+    h2{@include subTitles}
+}
+#main__destinos{
+    #conteiner-destinos{
+        width: 18.7rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        .conteiner-destinos__articulo{
+            margin-bottom: 30px;
+            border-radius: 4px; 
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            transition: transform 1s;
+            img{@include imageSize(200px, 300px);
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px; ;}
+            .contenido__article__destinos{
+                
+                padding: 1rem 0.5rem;
+                h3{
+                    font-weight: bold;
+                }
+                p{
+                    font-weight: bold;
+                    text-align: justify;
+                    margin-bottom: 0;
+                    font-size: $letter-s;
+                }
+            }
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.05);
+            }
+        }
+    }
+}

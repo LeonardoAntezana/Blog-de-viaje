@@ -60,6 +60,20 @@
         grid-template-columns: 1fr;
         row-gap: 2rem;
     }
+
+
+    // DESTINOS
+
+    .grid-template-destinos{
+        grid-template-areas: 
+         " header-destinos header-destinos"
+         " main-destinos main-destinos"
+         " footer-destinos footer-destinos"   
+        ;
+        grid-template-rows: auto 4fr auto;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
 }
     
 
@@ -94,8 +108,17 @@
         row-gap: 1.5rem;
     }
 
-    .conteiner__tips{
-        display: inline;
+    #main__tips{
+        .conteiner__tips{
+            display: block;
+            #titulo__seccion-tips{
+                text-align: start;
+                margin-left: 2rem;
+            }
+            .lista-tips{
+                margin-left: 3rem;
+            }
+        }
     }
 
 
