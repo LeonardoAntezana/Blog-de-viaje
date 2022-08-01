@@ -34,9 +34,9 @@ footer {
       font-size: 0.5rem; }
 
 main .conteiner__image__header {
+  background-image: url(../rutas/Images/Laguna-esmeralda.jpg);
   width: 100%;
   height: 80vh;
-  background-image: url(../rutas/Images/Laguna-esmeralda.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -168,33 +168,27 @@ main .conteiner__image__header {
 #main__aventuras #conteiner-aventuras {
   background-color: #2C2727;
   color: white;
-  padding: 1rem 0;
-  height: 750px; }
-  #main__aventuras #conteiner-aventuras #article-aventuras-patagonia {
+  padding: 1rem 0; }
+  #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo, #main__aventuras #conteiner-aventuras #article-aventuras-feria {
     width: 300px;
     margin: auto;
-    height: 330px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around; }
-    #main__aventuras #conteiner-aventuras #article-aventuras-patagonia img {
+    #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo img, #main__aventuras #conteiner-aventuras #article-aventuras-feria img {
       height: 12.5rem;
       width: 18.7rem;
       border-radius: 2px; }
-    #main__aventuras #conteiner-aventuras #article-aventuras-patagonia .contenido__article__aventuras {
+    #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras {
       text-align: justify; }
-      #main__aventuras #conteiner-aventuras #article-aventuras-patagonia .contenido__article__aventuras h4 {
+      #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras h4, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras h4 {
         font-size: 1.4rem;
         color: #A4CACF; }
-      #main__aventuras #conteiner-aventuras #article-aventuras-patagonia .contenido__article__aventuras p {
+      #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras p, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras p {
         font-size: 0.8rem; }
   #main__aventuras #conteiner-aventuras #article-aventuras-feria {
-    width: 300px;
-    margin: auto;
-    height: 380px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
+    height: 380px; }
     #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras h4 {
       font-size: 1.4rem;
       color: #A4CACF; }

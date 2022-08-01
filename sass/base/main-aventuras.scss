@@ -6,18 +6,17 @@
         background-color: $bgDark;
         color: white;
         padding: 1rem 0;
-        height: 750px;
-        #article-aventuras-patagonia{
+        .conteiner-aventuras__articulo{  //CLASE BASE//
             width: 300px;
             margin: auto;
-            height: 330px;
+            height: 300px;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             img{
                 @include imageSize(12.5rem, 18.7rem);
             }
-            .contenido__article__aventuras{
+            .contenido__article__aventuras{ 
                 text-align: justify;
                 h4{
                     font-size: $secondTitle;
@@ -29,13 +28,8 @@
             }
         }
         #article-aventuras-feria{
-            width: 300px;
-            margin: auto;
+            @extend .conteiner-aventuras__articulo; //UTILIZANDO @EXTEND PARA EXTENDER PROPIEDADES// 
             height: 380px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            
             .contenido__article__aventuras{
                 @extend .contenido__article__aventuras;
                 h4{
