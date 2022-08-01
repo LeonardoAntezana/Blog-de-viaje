@@ -91,6 +91,22 @@ main .conteiner__image__header {
   #main__tips .conteiner__tips .lista-tips {
     font-size: 0.8rem; }
 
+@keyframes mail-movement {
+  15% {
+    transform: translateY(1rem); }
+  30% {
+    transform: translateY(-1rem); }
+  45% {
+    transform: translateY(0.7rem); }
+  60% {
+    transform: translateY(-0.7rem); }
+  75% {
+    transform: translateY(0.3rem); }
+  90% {
+    transform: translateY(-0.3rem); }
+  100% {
+    transform: translateY(0.1rem); } }
+
 #main__contacto #titulo__seccion-contacto {
   font-size: 1.4rem;
   background-color: #2C2727;
@@ -105,7 +121,9 @@ main .conteiner__image__header {
   padding: 35px 0px; }
   #main__contacto #formulario #conteiner__image__mail {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    animation-name: mail-movement;
+    animation-duration: 1.5s; }
     #main__contacto #formulario #conteiner__image__mail img {
       height: 3rem;
       width: 3rem; }
@@ -226,7 +244,7 @@ main .conteiner__image__header {
         transform: scale(1.05); }
 
 /* MEDIAS QUERIES */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
   .grid-template-index {
     grid-template-areas: " header-index header-index" " main-index main-index" " footer-index footer-index";
     grid-template-rows: 0.3fr 4fr 0.5fr;
@@ -279,6 +297,7 @@ main .conteiner__image__header {
       text-align: start;
       margin-left: 2rem; }
     #main__tips .conteiner__tips .lista-tips {
+      font-size: 1rem;
       margin-left: 3rem; }
   .grid-templeate-contacto {
     grid-template-areas: " header-contacto" " main-contacto" " footer-contacto";

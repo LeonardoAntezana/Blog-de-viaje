@@ -1,5 +1,5 @@
 /* MEDIAS QUERIES */
-@media screen and(max-width: 780px){
+@media screen and(max-width: 768px){
     .grid-template-index{
         grid-template-areas: 
             " header-index header-index"
@@ -117,6 +117,7 @@
                 margin-left: 2rem;
             }
             .lista-tips{
+                font-size: 1rem;
                 margin-left: 3rem;
             }
         }
