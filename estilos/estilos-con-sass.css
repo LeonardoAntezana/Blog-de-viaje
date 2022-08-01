@@ -257,7 +257,7 @@ main .conteiner__image__header {
     grid-template-columns: 1fr;
     row-gap: 2rem; } }
 
-@media screen and (min-width: 781px) {
+@media screen and (min-width: 768px) {
   .grid-template-index {
     grid-template-areas: " header-index header-index" " main-index main-index" " footer-index footer-index";
     grid-template-rows: 0.4fr auto 0.2fr;
@@ -286,7 +286,6 @@ main .conteiner__image__header {
     grid-template-columns: 1fr;
     row-gap: 2rem; }
   #formulario {
-    height: 55vh;
     display: flex;
     flex-direction: column; }
   .grid-templeate-aventuras {
