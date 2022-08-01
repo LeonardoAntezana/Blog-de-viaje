@@ -1,0 +1,56 @@
+#main__aventuras{
+    .titulo__seccion{
+        @include subTitles;
+    }
+    #conteiner-aventuras{
+        background-color: $bgDark;
+        color: white;
+        padding: 1rem 0;
+        height: 750px;
+        #article-aventuras-patagonia{
+            width: 300px;
+            margin: auto;
+            height: 330px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            img{
+                @include imageSize(12.5rem, 18.7rem);
+            }
+            .contenido__article__aventuras{
+                text-align: justify;
+                h4{
+                    font-size: $secondTitle;
+                    color: $primaryBg;
+                }
+                p{ 
+                    font-size: $letter-s;
+                }
+            }
+        }
+        #article-aventuras-feria{
+            width: 300px;
+            margin: auto;
+            height: 380px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+            .contenido__article__aventuras{
+                @extend .contenido__article__aventuras;
+                h4{
+                    font-size: $secondTitle;
+                    color: $primaryBg;
+                }
+                p{
+                    font-size: $letter-s;
+                }
+            }
+            img{
+                @include imageSize(12.5rem, 18.7rem);
+            }
+        }
+        }
+    }
+    
+  

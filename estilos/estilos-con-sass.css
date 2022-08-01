@@ -17,11 +17,13 @@ nav {
   margin: 20px 10px;
   text-align: center;
   display: none; }
-  nav ul li {
-    list-style: none;
-    display: inline;
-    font-weight: bold;
-    margin: 0px 12px; }
+  nav ul {
+    margin: 0; }
+    nav ul li {
+      list-style: none;
+      display: inline;
+      font-weight: bold;
+      margin: 0px 12px; }
 
 footer {
   text-align: center;
@@ -57,6 +59,172 @@ main .conteiner__image__header {
 .grid-template-index #footer__index {
   grid-area: footer-index; }
 
+.grid-template-destinos #header__destinos {
+  grid-area: header-destinos; }
+
+.grid-template-destinos #main__destinos {
+  grid-area: main-destinos; }
+
+.grid-template-destinos #footer__destinos {
+  grid-area: footer-destinos; }
+
+#hero__tips .conteiner__image__header-height {
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../rutas/Images/Laguna-esmeralda.jpg); }
+
+#main__tips .conteiner__tips {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #main__tips .conteiner__tips #titulo__seccion-tips {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center; }
+  #main__tips .conteiner__tips .lista-tips {
+    font-size: 0.8rem; }
+
+#main__contacto #titulo__seccion-contacto {
+  font-size: 1.4rem;
+  background-color: #2C2727;
+  color: white;
+  padding: 1rem 0 1rem 1rem; }
+
+#main__contacto #formulario {
+  background-color: #2C2727;
+  color: white;
+  width: 70%;
+  margin: 45px auto;
+  padding: 35px 0px; }
+  #main__contacto #formulario #conteiner__image__mail {
+    display: flex;
+    justify-content: center; }
+    #main__contacto #formulario #conteiner__image__mail img {
+      height: 3rem;
+      width: 3rem; }
+
+#main__contacto .formulario__requisito {
+  font-size: 0.8rem;
+  width: 80%;
+  margin: auto;
+  padding: 12px 0px;
+  display: block; }
+  #main__contacto .formulario__requisito .formulario__requisito__input {
+    display: block;
+    margin-top: 5px;
+    padding-left: 6px;
+    width: 100%;
+    height: 30px; }
+  #main__contacto .formulario__requisito #textarea {
+    height: 5rem;
+    resize: none; }
+
+#main__contacto .btn-enviar {
+  margin: 6px;
+  display: flex;
+  justify-content: center; }
+  #main__contacto .btn-enviar .input__enviar {
+    background-color: #A4CACF;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 0.8rem;
+    border: none;
+    transition: all 1s ease; }
+    #main__contacto .btn-enviar .input__enviar:hover {
+      background-color: #567174;
+      color: grey; }
+
+#main__aventuras .titulo__seccion {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center; }
+
+#main__aventuras #conteiner-aventuras {
+  background-color: #2C2727;
+  color: white;
+  padding: 1rem 0;
+  height: 750px; }
+  #main__aventuras #conteiner-aventuras #article-aventuras-patagonia {
+    width: 300px;
+    margin: auto;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    #main__aventuras #conteiner-aventuras #article-aventuras-patagonia img {
+      height: 12.5rem;
+      width: 18.7rem;
+      border-radius: 2px; }
+    #main__aventuras #conteiner-aventuras #article-aventuras-patagonia .contenido__article__aventuras {
+      text-align: justify; }
+      #main__aventuras #conteiner-aventuras #article-aventuras-patagonia .contenido__article__aventuras h4 {
+        font-size: 1.4rem;
+        color: #A4CACF; }
+      #main__aventuras #conteiner-aventuras #article-aventuras-patagonia .contenido__article__aventuras p {
+        font-size: 0.8rem; }
+  #main__aventuras #conteiner-aventuras #article-aventuras-feria {
+    width: 300px;
+    margin: auto;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras h4 {
+      font-size: 1.4rem;
+      color: #A4CACF; }
+    #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras p {
+      font-size: 0.8rem; }
+    #main__aventuras #conteiner-aventuras #article-aventuras-feria img {
+      height: 12.5rem;
+      width: 18.7rem;
+      border-radius: 2px; }
+
+#header__destinos h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center; }
+
+#main__destinos {
+  padding-top: 30px;
+  background-color: #2C2727; }
+  #main__destinos #conteiner-destinos {
+    width: 18.7rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+    #main__destinos #conteiner-destinos .conteiner-destinos__articulo {
+      background-color: antiquewhite;
+      margin-bottom: 30px;
+      border-radius: 4px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+      transition: transform 1s; }
+      #main__destinos #conteiner-destinos .conteiner-destinos__articulo img {
+        height: 200px;
+        width: 300px;
+        border-radius: 2px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px; }
+      #main__destinos #conteiner-destinos .conteiner-destinos__articulo .contenido__article__destinos {
+        padding: 1rem 0.5rem; }
+        #main__destinos #conteiner-destinos .conteiner-destinos__articulo .contenido__article__destinos h3 {
+          font-weight: bold; }
+        #main__destinos #conteiner-destinos .conteiner-destinos__articulo .contenido__article__destinos p {
+          font-weight: bold;
+          text-align: justify;
+          margin-bottom: 0;
+          font-size: 0.8rem; }
+      #main__destinos #conteiner-destinos .conteiner-destinos__articulo:hover {
+        cursor: pointer;
+        transform: scale(1.05); }
+
 /* MEDIAS QUERIES */
 @media screen and (max-width: 780px) {
   .grid-template-index {
@@ -67,9 +235,29 @@ main .conteiner__image__header {
   .p__footer {
     font-size: 0.7rem; }
   .nav-link {
-    font-size: 0.6rem; } }
+    font-size: 0.8rem; }
+  .grid-templeate-tips {
+    grid-template-areas: " header-tips" " hero" " main-tips" " footer-tips";
+    grid-template-rows: 0.2fr 0.4fr 0.4fr 0.1fr;
+    grid-template-columns: 100%;
+    row-gap: 2rem; }
+  .grid-templeate-contacto {
+    grid-template-areas: " header-contacto" " main-contacto" " footer-contacto";
+    grid-template-rows: 0.3fr 2fr auto;
+    grid-template-columns: 1fr;
+    row-gap: 2rem; }
+  .grid-templeate-aventuras {
+    grid-template-areas: " header-aventuras" " main-aventuras" " footer-aventuras";
+    grid-template-rows: 0.2fr 1.5fr 0.1fr;
+    grid-template-columns: 1fr;
+    row-gap: 2rem; }
+  .grid-template-destinos {
+    grid-template-areas: " header-destinos header-destinos" " main-destinos main-destinos" " footer-destinos footer-destinos";
+    grid-template-rows: auto 4fr auto;
+    grid-template-columns: 1fr;
+    row-gap: 2rem; } }
 
-@media screen and (min-width: 781px) {
+@media screen and (min-width: 768px) {
   .grid-template-index {
     grid-template-areas: " header-index header-index" " main-index main-index" " footer-index footer-index";
     grid-template-rows: 0.4fr auto 0.2fr;
@@ -79,14 +267,85 @@ main .conteiner__image__header {
     display: flex;
     align-items: center; }
   nav {
-    display: block; } }
+    display: block; }
+  .grid-templeate-tips {
+    grid-template-areas: " header-tips" " hero" " main-tips" " footer-tips";
+    grid-template-rows: 0.3fr 1fr 0.3fr 0.2fr;
+    grid-template-columns: 100%;
+    row-gap: 1.5rem; }
+  #main__tips .conteiner__tips {
+    display: block; }
+    #main__tips .conteiner__tips #titulo__seccion-tips {
+      text-align: start;
+      margin-left: 2rem; }
+    #main__tips .conteiner__tips .lista-tips {
+      margin-left: 3rem; }
+  .grid-templeate-contacto {
+    grid-template-areas: " header-contacto" " main-contacto" " footer-contacto";
+    grid-template-rows: 0.2fr 3fr 0.2fr;
+    grid-template-columns: 1fr;
+    row-gap: 2rem; }
+  #formulario {
+    display: flex;
+    flex-direction: column; }
+  .grid-templeate-aventuras {
+    grid-template-areas: " header-aventuras" " main-aventuras" " footer-aventuras";
+    grid-template-rows: 0.5fr 4fr 1rem;
+    grid-template-columns: 1fr;
+    row-gap: 2rem; }
+  #conteiner-aventuras article {
+    width: 500px; }
+  .grid-template-destinos {
+    grid-template-areas: " header-destinos header-destinos" " main-destinos main-destinos" " footer-destinos footer-destinos";
+    grid-template-rows: 0.7fr 3fr auto;
+    grid-template-columns: 100%;
+    row-gap: 1.2rem; }
+  #main__destinos #conteiner-destinos {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    #main__destinos #conteiner-destinos .conteiner-destinos__articulo {
+      width: 300px;
+      margin-bottom: 30px;
+      border-radius: 4px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+      transition: transform 1s; }
+  footer .redes__footer {
+    display: none; } }
 
 @media screen and (min-width: 1020px) {
   .grid-template-index {
     grid-template-areas: " header-index header-index" " main-index main-index" " footer-index footer-index";
     grid-template-rows: 0.7fr auto 0.2fr;
     grid-template-columns: 100%;
-    row-gap: 1.2rem; } }
+    row-gap: 1.2rem; }
+  .grid-templeate-contacto {
+    grid-template-areas: " header-contacto" " main-contacto" " footer-contacto";
+    grid-template-rows: 0.2fr 3fr 0.2fr;
+    grid-template-columns: 1fr;
+    row-gap: 2rem; }
+  #formulario {
+    display: block;
+    height: auto; }
+  #main__aventuras #conteiner-aventuras #article-aventuras-patagonia {
+    width: 800px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+    #main__aventuras #conteiner-aventuras #article-aventuras-patagonia .contenido__article__aventuras {
+      width: 400px; }
+  #main__aventuras #conteiner-aventuras #article-aventuras-feria {
+    width: 800px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+    #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras {
+      width: 400px; }
+  #main__destinos #conteiner-destinos {
+    width: 1000px; } }
 
 * {
   margin: 0;

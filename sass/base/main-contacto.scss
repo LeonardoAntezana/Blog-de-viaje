@@ -1,0 +1,59 @@
+#main__contacto{
+    #titulo__seccion-contacto{
+        font-size: $secondTitle;
+        background-color: $bgDark;
+        color: white;
+        padding: 1rem 0 1rem 1rem; 
+    }
+    #formulario{
+        background-color: $bgDark;
+        color: white;
+        width: 70%;
+        margin: 45px auto;
+        padding: 35px 0px;
+        #conteiner__image__mail{
+            display: flex;
+            justify-content: center;
+            img{
+                height: 3rem ;
+                width: 3rem;
+            }
+        }
+    }
+    .formulario__requisito{
+        font-size: $letter-s;
+        width: 80%;
+        margin: auto;
+        padding: 12px 0px;
+        display: block;
+        .formulario__requisito__input{
+            display: block;
+            margin-top: 5px;
+            padding-left: 6px;
+            width: 100%;
+            height: 30px;
+        }
+        #textarea{
+            height: 5rem;
+            resize: none;
+        }
+    }
+    .btn-enviar{
+        margin: 6px;
+        display: flex;
+        justify-content: center;
+        .input__enviar{
+            background-color: #A4CACF;
+            color: white;
+            font-weight: bold;
+            padding: 6px;
+            font-size: $letter-s;
+            border: none;
+            transition: all 1s ease;
+        &:hover{
+            background-color: #567174;
+            color: grey;
+        }
+        }
+    }
+}
