@@ -235,7 +235,7 @@ main .conteiner__image__header {
   .p__footer {
     font-size: 0.7rem; }
   .nav-link {
-    font-size: 0.6rem; }
+    font-size: 0.8rem; }
   .grid-templeate-tips {
     grid-template-areas: " header-tips" " hero" " main-tips" " footer-tips";
     grid-template-rows: 0.2fr 0.4fr 0.4fr 0.1fr;
