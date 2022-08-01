@@ -225,8 +225,9 @@
         }
 
     #formulario{
-        display: block;
-        height: auto;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
     }
 
     #main__aventuras{

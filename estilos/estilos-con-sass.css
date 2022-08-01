@@ -347,8 +347,9 @@ main .conteiner__image__header {
     grid-template-columns: 1fr;
     row-gap: 2rem; }
   #formulario {
-    display: block;
-    height: auto; }
+    display: flex;
+    flex-direction: column;
+    height: 600px; }
   #main__aventuras #conteiner-aventuras #article-aventuras-patagonia {
     width: 800px;
     flex-direction: row;
