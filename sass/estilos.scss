@@ -1,11 +1,9 @@
 @import "./mixins.scss";
-@import "./variables.scss",
-
-
-"base/header.scss", "base/footer.scss",
-"base/main-index.scss","base/grid-areas.scss", 
- "base/main-tips.scss", 
-"base/main-contacto.scss", "base/main-aventuras.scss", "base/main-destinos.scss", "base/mediaQueries.scss";
+@import "./variables.scss";
+@import "base/header.scss", "base/footer.scss","base/main-index.scss",
+"base/grid-areas.scss","base/main-tips.scss","base/main-contacto.scss",
+"base/main-aventuras.scss", "base/main-destinos.scss",
+"base/mediaQueries.scss";
 
 
 // ESTILOS GENERALES
