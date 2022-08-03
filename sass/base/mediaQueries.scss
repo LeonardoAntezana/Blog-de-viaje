@@ -242,6 +242,7 @@
                     @include imageSize(300px, 400px);
                 }
                 .contenido__article__aventuras{
+                    height: auto;
                     width: 400px;
                     display: flex;
                     flex-direction: column;

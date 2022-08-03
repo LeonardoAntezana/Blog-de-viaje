@@ -172,23 +172,40 @@ main .conteiner__image__header {
   #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo, #main__aventuras #conteiner-aventuras #article-aventuras-feria {
     width: 300px;
     margin: auto;
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around; }
+    justify-content: space-between; }
     #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .article__image__aventuras, #main__aventuras #conteiner-aventuras #article-aventuras-feria .article__image__aventuras {
       height: 12.5rem;
       width: 18.7rem;
       border-radius: 2px; }
     #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
       text-align: justify; }
       #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras .article__titulo, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras .article__titulo {
+        text-align: center;
         font-size: 1.4rem;
         color: #A4CACF; }
       #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras .p__contenido__article__aventuras, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras .p__contenido__article__aventuras {
         font-size: 0.8rem; }
+      #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras .span__articulo, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras .span__articulo {
+        width: auto;
+        background-color: #A4CACF;
+        padding: 0.5rem 1rem;
+        transition: background-color 0.5s; }
+        #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras .span__articulo a, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras .span__articulo a {
+          color: darkslategray;
+          font-weight: 900; }
+        #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras .span__articulo:hover, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras .span__articulo:hover {
+          background-color: #799397; }
   #main__aventuras #conteiner-aventuras #article-aventuras-feria {
-    height: 380px; }
+    margin-top: 2rem;
+    height: 430px; }
 
 #header__destinos h2 {
   text-transform: uppercase;
@@ -347,6 +364,7 @@ main .conteiner__image__header {
         width: 400px;
         border-radius: 2px; }
       #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras {
+        height: auto;
         width: 400px;
         display: flex;
         flex-direction: column;

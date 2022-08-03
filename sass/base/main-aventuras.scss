@@ -9,30 +9,47 @@
         .conteiner-aventuras__articulo{  //CLASE BASE//
             width: 300px;
             margin: auto;
-            height: 300px;
+            height: 400px;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            justify-content: space-between;
             .article__image__aventuras{
                 @include imageSize(12.5rem, 18.7rem);
             }
-            .contenido__article__aventuras{ 
+            .contenido__article__aventuras{
+                height: 200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
                 text-align: justify;
                 .article__titulo{
+                    text-align: center;
                     font-size: $secondTitle;
                     color: $primaryBg;
                 }
                 .p__contenido__article__aventuras{
                     font-size: $letter-s;
                 }
+                .span__articulo{
+                    width: auto;
+                    background-color:$primaryBg;
+                    padding: 0.5rem 1rem;
+                    transition: background-color 0.5s;
+                    a{
+                    color:darkslategray;
+                    font-weight:900;
+                    }
+                    &:hover{
+                        background-color:#799397; 
+                    }
+                }
             }
         }
         #article-aventuras-feria{
+            margin-top: 2rem;
             @extend .conteiner-aventuras__articulo; //UTILIZANDO @EXTEND PARA EXTENDER PROPIEDADES// 
-            height: 380px;
-            .contenido__article__aventuras{
-                @extend .contenido__article__aventuras;
-            }
+            height: 430px;
         }
         }
     }
