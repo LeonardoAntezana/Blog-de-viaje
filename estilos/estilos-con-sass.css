@@ -176,28 +176,19 @@ main .conteiner__image__header {
     display: flex;
     flex-direction: column;
     justify-content: space-around; }
-    #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo img, #main__aventuras #conteiner-aventuras #article-aventuras-feria img {
+    #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .article__image__aventuras, #main__aventuras #conteiner-aventuras #article-aventuras-feria .article__image__aventuras {
       height: 12.5rem;
       width: 18.7rem;
       border-radius: 2px; }
     #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras {
       text-align: justify; }
-      #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras h4, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras h4 {
+      #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras .article__titulo, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras .article__titulo {
         font-size: 1.4rem;
         color: #A4CACF; }
-      #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras p, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras p {
+      #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras .p__contenido__article__aventuras, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras .p__contenido__article__aventuras {
         font-size: 0.8rem; }
   #main__aventuras #conteiner-aventuras #article-aventuras-feria {
     height: 380px; }
-    #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras h4 {
-      font-size: 1.4rem;
-      color: #A4CACF; }
-    #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras p {
-      font-size: 0.8rem; }
-    #main__aventuras #conteiner-aventuras #article-aventuras-feria img {
-      height: 12.5rem;
-      width: 18.7rem;
-      border-radius: 2px; }
 
 #header__destinos h2 {
   text-transform: uppercase;
@@ -344,20 +335,24 @@ main .conteiner__image__header {
     display: flex;
     flex-direction: column;
     height: 600px; }
-  #main__aventuras #conteiner-aventuras #article-aventuras-patagonia {
-    width: 800px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between; }
-    #main__aventuras #conteiner-aventuras #article-aventuras-patagonia .contenido__article__aventuras {
-      width: 400px; }
-  #main__aventuras #conteiner-aventuras #article-aventuras-feria {
-    width: 800px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between; }
-    #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras {
-      width: 400px; }
+  #main__aventuras #conteiner-aventuras {
+    padding: 4rem 0; }
+    #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo, #main__aventuras #conteiner-aventuras #article-aventuras-feria {
+      height: auto;
+      width: 900px;
+      flex-direction: row;
+      justify-content: space-between; }
+      #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .article__image__aventuras, #main__aventuras #conteiner-aventuras #article-aventuras-feria .article__image__aventuras {
+        height: 300px;
+        width: 400px;
+        border-radius: 2px; }
+      #main__aventuras #conteiner-aventuras .conteiner-aventuras__articulo .contenido__article__aventuras, #main__aventuras #conteiner-aventuras #article-aventuras-feria .contenido__article__aventuras {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; }
+    #main__aventuras #conteiner-aventuras #article-aventuras-feria {
+      margin-top: 2rem; }
   #main__destinos #conteiner-destinos {
     width: 1000px; } }
 

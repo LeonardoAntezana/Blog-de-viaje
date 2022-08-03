@@ -232,26 +232,27 @@
 
     #main__aventuras{
         #conteiner-aventuras{
-            #article-aventuras-patagonia{
-                width: 800px;
+            padding: 4rem 0;
+            .conteiner-aventuras__articulo{
+                height: auto;
+                width: 900px;
                 flex-direction: row;
-                align-items: center;
                 justify-content: space-between;
+                .article__image__aventuras{
+                    @include imageSize(300px, 400px);
+                }
                 .contenido__article__aventuras{
                     width: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
                 }
             }
             #article-aventuras-feria{
-                width: 800px ;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-                .contenido__article__aventuras{
-                    width: 400px;
-                }
-            }
+                margin-top: 2rem;
             }
         }
+    }
 
         #main__destinos{
             #conteiner-destinos{
