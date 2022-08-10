@@ -163,9 +163,6 @@ main .conteiner__image__header {
       background-color: #567174;
       color: grey; }
 
-#footer__contacto {
-  align-self: flex-end; }
-
 #main__aventuras {
   align-self: center; }
   #main__aventuras .titulo__seccion {
