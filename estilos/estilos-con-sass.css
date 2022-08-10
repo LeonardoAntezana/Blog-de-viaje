@@ -30,8 +30,8 @@ footer {
   font-weight: bold; }
   footer .redes__footer {
     height: 20px; }
-    footer .redes__footer .p__footer {
-      font-size: 0.5rem; }
+  footer .p__footer {
+    margin: 0; }
 
 main .conteiner__image__header {
   background-image: url(../rutas/Images/Laguna-esmeralda.jpg);
@@ -252,10 +252,6 @@ main .conteiner__image__header {
     grid-template-rows: 0.3fr 2fr auto;
     grid-template-columns: 100%;
     row-gap: 1.3rem; }
-  .p__footer {
-    font-size: 0.7rem; }
-  .nav-link {
-    font-size: 0.8rem; }
   .grid-templeate-tips {
     grid-template-areas: " header-tips" " hero" " main-tips" " footer-tips";
     grid-template-rows: 0.2fr 0.4fr 0.4fr 0.1fr;
