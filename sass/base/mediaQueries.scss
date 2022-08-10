@@ -21,7 +21,7 @@
             " main-tips"
             " footer-tips"
         ;
-        grid-template-rows: 0.2fr 0.4fr 0.4fr 0.1fr  ;
+        grid-template-rows: 0.2fr 0.4fr 0.4fr auto ;
         grid-template-columns: 100%;
         row-gap: 2rem;
     }
@@ -48,7 +48,7 @@
             " main-aventuras"
             " footer-aventuras"
         ;
-        grid-template-rows: 0.2fr 1.5fr auto;
+        grid-template-rows: 0.2fr 2fr auto;
         grid-template-columns: 1fr;
         row-gap: 2rem;
     }
@@ -86,7 +86,10 @@
         display: flex;
         align-items: center;}
 
-    nav{display: block;}
+    nav{
+        display: block;
+        margin-bottom: 0;
+    }
 
     .grid-templeate-tips{
         grid-template-areas: 
@@ -95,7 +98,7 @@
             " main-tips"
             " footer-tips"
         ;
-        grid-template-rows: 0.3fr 1fr 0.3fr 0.2fr  ;
+        grid-template-rows: 0.3fr 1fr 0.3fr auto  ;
         grid-template-columns: 100%;
         row-gap: 1.5rem;
     }
@@ -121,7 +124,7 @@
             " main-contacto"
             " footer-contacto"
             ;
-        grid-template-rows: 0.2fr 3fr 0.2fr ;
+        grid-template-rows: 0.2fr 3fr auto ;
         grid-template-columns: 1fr;
         row-gap: 2rem;
     }
@@ -139,7 +142,7 @@
             " main-aventuras"
             " footer-aventuras"
             ;
-            grid-template-rows: 0.5fr 4fr 1rem;
+            grid-template-rows: 0.5fr 4fr auto;
             grid-template-columns: 1fr;
             row-gap: 2rem;
         }
@@ -159,7 +162,7 @@
             " main-destinos main-destinos"
             " footer-destinos footer-destinos"
         ;
-        grid-template-rows: 0.7fr 3fr auto;
+        grid-template-rows: 0.7fr auto auto;
         grid-template-columns: 100%; 
         row-gap: 1.2rem;
     }
@@ -198,7 +201,7 @@
             " footer-index footer-index"
             ;
 
-        grid-template-rows: 0.7fr auto 0.2fr;
+        grid-template-rows: 0.7fr auto auto;
         grid-template-columns: 100%; ;
         row-gap: 1.2rem;
         }

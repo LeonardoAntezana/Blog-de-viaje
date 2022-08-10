@@ -88,8 +88,6 @@ main .conteiner__image__header {
     text-transform: uppercase;
     text-decoration: underline;
     text-align: center; }
-  #main__tips .conteiner__tips .lista-tips {
-    font-size: 0.8rem; }
 
 @keyframes mail-movement {
   15% {
@@ -117,7 +115,7 @@ main .conteiner__image__header {
   background-color: #2C2727;
   color: white;
   width: 70%;
-  margin: 45px auto;
+  margin: 2rem auto 0 auto;
   padding: 35px 0px; }
   #main__contacto #formulario #conteiner__image__mail {
     display: flex;
@@ -254,7 +252,7 @@ main .conteiner__image__header {
     row-gap: 1.3rem; }
   .grid-templeate-tips {
     grid-template-areas: " header-tips" " hero" " main-tips" " footer-tips";
-    grid-template-rows: 0.2fr 0.4fr 0.4fr 0.1fr;
+    grid-template-rows: 0.2fr 0.4fr 0.4fr auto;
     grid-template-columns: 100%;
     row-gap: 2rem; }
   .grid-templeate-contacto {
@@ -264,7 +262,7 @@ main .conteiner__image__header {
     row-gap: 2rem; }
   .grid-templeate-aventuras {
     grid-template-areas: " header-aventuras" " main-aventuras" " footer-aventuras";
-    grid-template-rows: 0.2fr 1.5fr auto;
+    grid-template-rows: 0.2fr 2fr auto;
     grid-template-columns: 1fr;
     row-gap: 2rem; }
   .grid-template-destinos {
@@ -283,10 +281,11 @@ main .conteiner__image__header {
     display: flex;
     align-items: center; }
   nav {
-    display: block; }
+    display: block;
+    margin-bottom: 0; }
   .grid-templeate-tips {
     grid-template-areas: " header-tips" " hero" " main-tips" " footer-tips";
-    grid-template-rows: 0.3fr 1fr 0.3fr 0.2fr;
+    grid-template-rows: 0.3fr 1fr 0.3fr auto;
     grid-template-columns: 100%;
     row-gap: 1.5rem; }
   #main__tips .conteiner__tips {
@@ -299,7 +298,7 @@ main .conteiner__image__header {
       margin-left: 3rem; }
   .grid-templeate-contacto {
     grid-template-areas: " header-contacto" " main-contacto" " footer-contacto";
-    grid-template-rows: 0.2fr 3fr 0.2fr;
+    grid-template-rows: 0.2fr 3fr auto;
     grid-template-columns: 1fr;
     row-gap: 2rem; }
   #formulario {
@@ -307,14 +306,14 @@ main .conteiner__image__header {
     flex-direction: column; }
   .grid-templeate-aventuras {
     grid-template-areas: " header-aventuras" " main-aventuras" " footer-aventuras";
-    grid-template-rows: 0.5fr 4fr 1rem;
+    grid-template-rows: 0.5fr 4fr auto;
     grid-template-columns: 1fr;
     row-gap: 2rem; }
   #conteiner-aventuras article {
     width: 500px; }
   .grid-template-destinos {
     grid-template-areas: " header-destinos header-destinos" " main-destinos main-destinos" " footer-destinos footer-destinos";
-    grid-template-rows: 0.7fr 3fr auto;
+    grid-template-rows: 0.7fr auto auto;
     grid-template-columns: 100%;
     row-gap: 1.2rem; }
   #main__destinos #conteiner-destinos {
@@ -336,7 +335,7 @@ main .conteiner__image__header {
 @media screen and (min-width: 1020px) {
   .grid-template-index {
     grid-template-areas: " header-index header-index" " main-index main-index" " footer-index footer-index";
-    grid-template-rows: 0.7fr auto 0.2fr;
+    grid-template-rows: 0.7fr auto auto;
     grid-template-columns: 100%;
     row-gap: 1.2rem; }
   .grid-templeate-contacto {
