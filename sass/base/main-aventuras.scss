@@ -1,4 +1,5 @@
 #main__aventuras{
+    align-self: center;
     .titulo__seccion{
         @include subTitles;
     }
@@ -53,5 +54,11 @@
         }
         }
     }
+
+    #footer__aventuras{
+        align-self: flex-end;
+    }
+
+   
     
   

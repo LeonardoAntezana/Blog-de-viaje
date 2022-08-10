@@ -5,9 +5,11 @@
     }
     #main__index{
         grid-area: main-index;
+        align-self: center;
     }
     #footer__index{
         grid-area: footer-index;
+        align-self: center;
     }
 }
 
@@ -20,6 +22,7 @@
     }
     #footer__destinos{
         grid-area: footer-destinos;
+        align-self: flex-end;
     }
 }
 
