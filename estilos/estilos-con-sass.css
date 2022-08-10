@@ -163,6 +163,9 @@ main .conteiner__image__header {
       background-color: #567174;
       color: grey; }
 
+#footer__contacto {
+  align-self: flex-end; }
+
 #main__aventuras {
   align-self: center; }
   #main__aventuras .titulo__seccion {
@@ -271,7 +274,7 @@ main .conteiner__image__header {
     row-gap: 2rem; }
   .grid-templeate-aventuras {
     grid-template-areas: " header-aventuras" " main-aventuras" " footer-aventuras";
-    grid-template-rows: auto 1fr 0.1fr;
+    grid-template-rows: 0.1fr 1fr auto;
     grid-template-columns: 1fr;
     row-gap: 2rem; }
   .grid-template-destinos {
@@ -352,13 +355,17 @@ main .conteiner__image__header {
     grid-template-rows: 0.2fr 3fr 0.2fr;
     grid-template-columns: 1fr;
     row-gap: 2rem; }
+  #main__contacto {
+    align-self: center; }
+  #footer__contacto {
+    align-self: flex-end; }
   #formulario {
     display: flex;
     flex-direction: column;
     height: 600px; }
   .grid-templeate-aventuras {
     grid-template-areas: " header-aventuras" " main-aventuras" " footer-aventuras";
-    grid-template-rows: 0.2fr 1000px auto;
+    grid-template-rows: 0.2fr auto auto;
     grid-template-columns: 1fr;
     row-gap: 2rem; }
   #main__aventuras #conteiner-aventuras {

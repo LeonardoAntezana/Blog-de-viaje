@@ -48,7 +48,7 @@
             " main-aventuras"
             " footer-aventuras"
         ;
-        grid-template-rows: auto 1fr 0.1fr;
+        grid-template-rows: 0.1fr 1fr auto;
         grid-template-columns: 1fr;
         row-gap: 2rem;
     }
@@ -219,6 +219,14 @@
         grid-template-columns: 1fr;
         row-gap: 2rem;
         }
+    
+    #main__contacto{
+        align-self: center;
+    }
+
+    #footer__contacto{
+        align-self: flex-end;
+    }
 
     #formulario{
         display: flex;
@@ -232,7 +240,7 @@
             " main-aventuras"
             " footer-aventuras"
             ;
-            grid-template-rows: 0.2fr 1000px auto;
+            grid-template-rows: 0.2fr auto auto;
             grid-template-columns: 1fr;
             row-gap: 2rem;
         }
